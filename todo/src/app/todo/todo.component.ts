@@ -46,7 +46,7 @@ export class TodoComponent implements OnInit {
       //     this.router.navigate(['todos'])
       //   }
         this.fs.addItem(this.description, this.targetDate);
-      
+      this.router.navigate(['/logged/todos']);
     }else{
       // this.todoService.updateTodo('spingboot', this.id, this.todo).subscribe(
       //   data => {
@@ -56,7 +56,8 @@ export class TodoComponent implements OnInit {
       // )
 
       this.fs.updateTodo(this.id, this.description, this.targetDate);
-      console.log(new Date(this.targetDate))
+      console.log(new Date(this.targetDate));
+      this.router.navigate(['/logged/todos']);
     }
 
     
