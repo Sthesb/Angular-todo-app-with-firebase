@@ -1,0 +1,54 @@
+# full-stack-appliction-with-springboot-and-angular
+This is a todo application build with springboot and angular cli
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.3.
+
+# Setting up your local development
+
+Create a directory/folder named "SpringbootApp"
+
+Navigate to "SpringbootApp" folder with your terminal or command prompt. On windows, ensure that your running your command prompt as an administrator
+
+<h2>Ensure that your have the following on your  local development</h2>
+<ul>
+    <li>Run "node -v" to check your node version. Ensure that you have V8.12.0 or higher</li>
+    <li>Run "npm -v" to check your node version. Ensure that you have 6.4.1 or higher</li>
+</ul>
+Ensure that you are in the <h3>SpringbootApp</h3> folder on your terminal or command promt 
+
+
+Run "npm install -g @angular/cli@7.0.3". On windows, ensure that you are running your your command prompt as an administrator
+
+On MacOS or Linux, Run "sudo npm install -g @angular/cli@7.0.3" (Terminal might prompt you for root user pasword. Enter your root user password to download Angular CLI to your local development)
+
+NPM will download the all the npm packages for you
+
+Run "ng version" on your terminal to see the Angular CLI version you have installed
+
+
+
+Run "ng new" on your terminal to see the Angular CLI version you have installed
+
+## Development server
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).

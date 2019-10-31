@@ -1,0 +1,18 @@
+<h1 class = "text-center mb-5 mt-2">Todo</h1>
+<div class = "alert alert-warning" *ngIf="todoForm.dirty && todoForm.invalid">Enter valid values</div> <!-- *ngIf="todoForm.invalid"  Form Validation -->
+<div class="container">
+  <form (ngSumbit)="!todoForm.invalid && saveTodo()" #todoForm="ngForm">
+    <div class = "form-group form-control">   
+      <label for="description">Description</label> <br>
+      <input class = "form-control" [(ngModel)] = "description" type="text" name="description" required = "required" >
+    </div>
+    <div class = "form-group form-control">
+      <label for="description">Date</label> <br>
+      <input class = "form-control" [ngModel] = "targetDate | date:'yyyy-MM-dd'" [(ngModel)] = "targetDate"
+      (ngModelChange)="todo.targetDate = $event" type="date" name="targetDate" required = "required" >
+    </div>
+    <div class = "form-group form-control">
+      <button class = "form-control bg-success text-white" (click)="saveTodo()">Update</button>
+    </div>
+  </form>
+</div>

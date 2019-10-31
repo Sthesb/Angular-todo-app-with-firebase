@@ -1,0 +1,11 @@
+.nav{
+    background-color: #111111; 
+    height: 40px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+    /* Set the fixed height of the navigation bar here */
+    height: 40px;
+    line-height: 35px; /* Vertically center the text there */
+}

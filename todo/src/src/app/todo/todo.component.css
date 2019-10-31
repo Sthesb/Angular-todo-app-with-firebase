@@ -1,0 +1,9 @@
+/* removes borders on the divs */
+div{
+    border:none;
+}
+
+/* Form Validation */
+.ng-invalid:not(form){
+    border-left: 5px solid red;
+}

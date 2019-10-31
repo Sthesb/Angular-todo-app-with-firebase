@@ -1,0 +1,25 @@
+<header class = "container-fluid navbar-dark bg-dark mb-1">
+  <nav class = "container navbar navbar-expand-md text-muted">
+    <div class = "mr-2">
+      <a routerLink="welcome/" class ="text-muted">Todo App</a>
+        
+    </div>
+    <ul class = "navbar-nav mr-2">
+      <li><a routerLink="todos/"  class = "navbar-link text-muted">ToDos</a></li>
+    </ul>
+    <ul class = "navbar-nav navbar-collapse justify-content-end">
+        
+      <li><a routerLink=""  class = "navbar-link text-muted">Logoutoo</a></li>
+    </ul>
+
+
+      <!-- <ul class = "navbar-nav mr-2">
+          <li><a *ngIf="HardcodedAunthenticationService.isUserLoggedIn()" routerLink="/welcome/AngularApp"  class = "navbar-link mr-2 text-muted">Home</a></li>
+          <li><a *ngIf="HardcodedAunthenticationService.isUserLoggedIn()"  routerLink="/todos"  class = "navbar-link text-muted">ToDos</a></li>
+        </ul>
+        <ul class = "navbar-nav navbar-collapse justify-content-end">
+            <li><a *ngIf="!HardcodedAunthenticationService.isUserLoggedIn()"  routerLink="login"  class = "navbar-link mr-2 text-muted">Login</a></li>
+            <li><a *ngIf="HardcodedAunthenticationService.isUserLoggedIn()"  routerLink="logout"  class = "navbar-link text-muted">Logout</a></li>
+          </ul> -->
+  </nav>
+</header>
