@@ -17,6 +17,7 @@ const routes: Routes = [
   { path: 'logged', component:LogedInComponent, children:[
     { path: 'welcome', component:WelcomeComponent},
     { path: 'todos', component:ListTodoComponent}, 
+    { path: 'todo', component:TodoComponent},
   ]},
   { path: '**', component:ErrorComponent},
   
