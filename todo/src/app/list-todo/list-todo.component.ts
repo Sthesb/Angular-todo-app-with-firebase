@@ -91,7 +91,7 @@ export class ListTodoComponent implements OnInit {
   }
   // Update Button
   addTodo(){
-    this.router.navigate(['todos',-1])
+    this.router.navigate(['/logged/todo']);
     
     
   }
